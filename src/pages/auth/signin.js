@@ -7,7 +7,7 @@ export default function SignIn({ providers }) {
       <h1>Sign In</h1>
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
-          <button onClick={() => signIn(provider.id, { callbackUrl: 'http://localhost:3000/protected' })}>Sign in with {provider.name}</button>
+          <button onClick={() => signIn(provider.id, { callbackUrl: 'https://authentication-module-eight.vercel.app/protected' })}>Sign in with {provider.name}</button>
         </div>
       ))}
     </div>
