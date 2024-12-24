@@ -19,6 +19,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.1.0"
+    "eslint-config-next": "15.1.0",
+    "next-secure-headers": "^2.2.0"
   }
 }
